@@ -5,7 +5,14 @@ class Solution {
     private int sizeNums2;
     private int[] nums1;
     private int[] nums2;
-
+    private int[] nums27;
+    private int[] nums24;
+    private int[] nums24;
+    private int[] nums27;
+    private int[] nums28;
+    private int[] nums29;
+    private int[] nums288;
+  
     // Main function to find the median of two sorted arrays.
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // Initialize class variables with array sizes and the arrays themselves.
