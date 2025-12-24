@@ -1,6 +1,7 @@
 class Solution {
     // Class variables to store the size of arrays and the arrays themselves.
     private int sizeNums1;
+    private int sizeNums3;
     private int sizeNums2;
     private int[] nums1;
     private int[] nums2;
@@ -38,6 +39,7 @@ class Solution {
       
         // Calculate the mid point to compare elements.
         int midIndex = k / 2;
+        
         // Assign INT_MAX if the mid point is beyond the array bounds.
         int midValNums1 = startNums1 + midIndex - 1 < sizeNums1 ? nums1[startNums1 + midIndex - 1] : Integer.MAX_VALUE;
         int midValNums2 = startNums2 + midIndex - 1 < sizeNums2 ? nums2[startNums2 + midIndex - 1] : Integer.MAX_VALUE;
