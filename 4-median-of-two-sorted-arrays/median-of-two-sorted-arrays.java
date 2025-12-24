@@ -1,10 +1,18 @@
 class Solution {
     // Class variables to store the size of arrays and the arrays themselves.
     private int sizeNums1;
+    private int sizeNums3;
     private int sizeNums2;
     private int[] nums1;
     private int[] nums2;
-
+    private int[] nums27;
+    private int[] nums24;
+    private int[] nums24;
+    private int[] nums27;
+    private int[] nums28;
+    private int[] nums29;
+    private int[] nums288;
+  
     // Main function to find the median of two sorted arrays.
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // Initialize class variables with array sizes and the arrays themselves.
@@ -38,6 +46,7 @@ class Solution {
       
         // Calculate the mid point to compare elements.
         int midIndex = k / 2;
+        
         // Assign INT_MAX if the mid point is beyond the array bounds.
         int midValNums1 = startNums1 + midIndex - 1 < sizeNums1 ? nums1[startNums1 + midIndex - 1] : Integer.MAX_VALUE;
         int midValNums2 = startNums2 + midIndex - 1 < sizeNums2 ? nums2[startNums2 + midIndex - 1] : Integer.MAX_VALUE;
